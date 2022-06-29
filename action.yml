@@ -1,4 +1,4 @@
-name: "Check for Changed Files"
+name: "Check for Changed Files (extra debug info)"
 author: "Brett Cannon"
 description: "Require changed files in a PR"
 branding:
