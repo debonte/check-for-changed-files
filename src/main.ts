@@ -60,6 +60,7 @@ export async function main(): Promise<void> {
       return;
     }
 
+    core.info(`Paths in PR: ${filePaths.join(",")}`);
     const failureMessage = core.getInput("failure-message");
 
     core.setFailed(
